@@ -5,7 +5,7 @@ portions = input("Number of Portions> ")
 ingredient_cost_list = []
 
 while True:
-    ingredient_name = input("Ingredient> ")
+    ingredient_name = input("Ingredient" + "\x1b[3;37;49m (type 'no' to end)\x1b[0m" + ">")
     if ingredient_name == "no":
         break
     ingredient_weight = input("Total Weight(grams)> ")
