@@ -7,9 +7,9 @@ ingredient_cost_list = []
 while True:
     ingredient_name = input("Ingredient> ")
     ingredient_weight = input("Total Weight(grams)> ")
-    ingredient_cpg = (float(input("Ingredient Cost($)/kilo> ")) / 1000)
+    ingredient_cpk = (float(input("Ingredient Cost($)/kilo> ")) / 1000)
     reply = input("Keep going? (y/n)> ")
-    total_cost = (float(ingredient_weight) * float(ingredient_cpg))
+    total_cost = (float(ingredient_weight) * float(ingredient_cpk))
     ingredient_cost_list.append(float(total_cost))
     if reply == "n":
         break
