@@ -16,3 +16,6 @@ while True:
 
 
 print(("$" + str(round((sum(ingredient_cost_list) / portions) , 2)) + " per portion"))
+
+animals = "Cheetah"
+print(animals.upper())
